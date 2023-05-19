@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: inter;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainLogo {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 50px;
+
+  padding: 30px;
+}
+
+
+.inputDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 15px;
+  width: 25%;
+}
+
+.inputDetails div {
+  font-weight: bold;
+}
+
+.inputDetails-bar{
+  border: none;
+  border-bottom: 0.5px solid black;
+  color: rgb(194, 194, 194);
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.inputDetails-bar input {
+  border: none;
+  outline: none;
+}
+
+.inputDetails-logo {
+  margin-right: 10px;
+}
+
+.forgot {
+  font-size: 12px;
+}
+
+.login-buttons-container {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button,
+.logout-button {
+  color: rgb(14, 13, 13);
+  background-color: transparent;
+  border: 2px solid rgb(14, 13, 13);
+
+  width: 85px;
+  height: 36px;
+
+  border-radius: 7px;
+  cursor: pointer;
+
+  font-weight: 700;
+  text-align: center;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.create-account-button {
+  color: rgb(14, 13, 13);
+  background-color: transparent;
+  border: 2px solid rgb(14, 13, 13);
+
+  width: 150px;
+  height: 36px;
+
+  border-radius: 7px;
+  cursor: pointer;
+
+  font-weight: 700;
+  text-align: center;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.login-button,
+.create-account-button,
+.logout-button {
+  transition: all 0.4s;
+}
+
+.login-button:hover,
+.create-account-button:hover,
+.logout-button:hover {
+  background-color: rgb(14, 13, 13);
+  color: white;
+
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+
+  row-gap: 20px;
+}
+
+.home-top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
+}
+
+.logout-button {
+  position: absolute;
+  right: 0;
+}
+
+.dropdown-container {
+  background-color: #172144;
+  color: white;
+
+  padding: 20px;
+  border-radius: 7px;
+  width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-icon-down {
+  cursor: pointer;
+}
+
+.dropped-background {
+  background-color: aquamarine;
+}
+
+.dropElement-container {
+  display: flex;
+  column-gap: 20px;
+
+  padding: 20px;
+  border-radius: 7px;
+  width: 500px;
+
+  background-color: transparent;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.dropElement-container:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.dropdown-activated-container {
+  background-color: rgb(247, 244, 244);
+  border-radius: 7px;
+}
