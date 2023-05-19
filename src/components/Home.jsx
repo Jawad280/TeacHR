@@ -14,16 +14,36 @@ const classRoomElements = [
     <DropElement title="Classroom C" icon={grid}/>
 ];
 
+const classRooms = {
+    title: "Classroom",
+    dropElement: classRoomElements
+};
+
 const resourcesElements = [
     <DropElement title="Resource 1" icon={docu}/>,
     <DropElement title="Resource 2" icon={docu}/>,
     <DropElement title="Resource 3" icon={docu}/>
 ];
 
+const resources = {
+    title: "Resources",
+    dropElement: resourcesElements
+};
+
 const adminMatterElements = [
     <DropElement title="Leave Manager" icon={calendar}/>,
     <DropElement title="Profile Settings" icon={settings}/>
 ];
+
+const adminMatters = {
+    title: "Admin Matters",
+    dropElement: adminMatterElements
+};
+
+const dropDowns = () => {
+    return [classRooms, resources, adminMatters]
+    .map(x => <Dropdown title={x.title} dropElement={x.dropElement} />);
+}
 
 const Home = () => {
     return ( 
@@ -32,9 +52,7 @@ const Home = () => {
                 <div className="mainLogo">TeacHR</div>
                 <Link className="logout-button" to="/">Log Out</Link>
             </div>
-            <Dropdown title="Classrooms" dropElement={classRoomElements}/>
-            <Dropdown title="Resources" dropElement={resourcesElements}/>
-            <Dropdown title="Admin Matters" dropElement={adminMatterElements}/>
+            {dropDowns()}
         </div> 
      );
 }

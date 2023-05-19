@@ -1,7 +1,8 @@
+
 const InputDetails = (props) => {
     
     const { heading, logo, text } = props;
-    
+ 
     return ( 
             <div className="inputDetails">
                 <div>{heading}</div>

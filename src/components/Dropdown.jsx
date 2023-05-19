@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ReactComponent as Down } from "../images/chevron-down.svg";
 import { ReactComponent as Up } from "../images/chevron-up.svg";
-import DropElement from "./DropElement";
 
 const Dropdown = (props) => {
 
@@ -32,7 +31,7 @@ const Dropdown = (props) => {
     }
 
     return ( 
-        <div className={clicked ? "dropdown-activated-container" : ""}>
+        <div className="dropdown">
             <div className="dropdown-container">
                 <div>{title}</div>
                 <div className="dropdown-icon-down" onClick={handleClick}>
