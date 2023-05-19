@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/TeacHR/static/css/main.703e753e.css",
-    "main.js": "/TeacHR/static/js/main.5c189411.js",
+    "main.css": "/TeacHR/static/css/main.dba74a76.css",
+    "main.js": "/TeacHR/static/js/main.1c6a377f.js",
     "static/media/gear.svg": "/TeacHR/static/media/gear.9c93f9e7ede29b55e82192ca9be3963c.svg",
+    "static/media/eye-slash.svg": "/TeacHR/static/media/eye-slash.3b1d24d45f36c63a871c70f8b74dbf62.svg",
     "static/media/grid.svg": "/TeacHR/static/media/grid.a6736df5540ea324c6d49af12b89fb42.svg",
     "index.html": "/TeacHR/index.html",
+    "static/media/eye.svg": "/TeacHR/static/media/eye.e99d74334ad6397152628e2098cbc42b.svg",
     "static/media/document.svg": "/TeacHR/static/media/document.c99a8cbbc22603ed4024f91c8acb4ffc.svg",
     "static/media/envelope.svg": "/TeacHR/static/media/envelope.ceed57e9483391a79813f313693eb103.svg",
     "static/media/person.svg": "/TeacHR/static/media/person.b87141ee2ebc69697c380acaecf5f5e5.svg",
@@ -12,11 +14,11 @@
     "static/media/calendar.svg": "/TeacHR/static/media/calendar.fcd474947e86005db1abbc90ce55cad0.svg",
     "static/media/chevron-down.svg": "/TeacHR/static/media/chevron-down.8624f04faf16b2d07c00235d9dc68ae2.svg",
     "static/media/chevron-up.svg": "/TeacHR/static/media/chevron-up.21ead3be1dbf588b9fb74874b00dd155.svg",
-    "main.703e753e.css.map": "/TeacHR/static/css/main.703e753e.css.map",
-    "main.5c189411.js.map": "/TeacHR/static/js/main.5c189411.js.map"
+    "main.dba74a76.css.map": "/TeacHR/static/css/main.dba74a76.css.map",
+    "main.1c6a377f.js.map": "/TeacHR/static/js/main.1c6a377f.js.map"
   },
   "entrypoints": [
-    "static/css/main.703e753e.css",
-    "static/js/main.5c189411.js"
+    "static/css/main.dba74a76.css",
+    "static/js/main.1c6a377f.js"
   ]
 }
